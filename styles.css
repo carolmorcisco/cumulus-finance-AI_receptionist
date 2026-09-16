@@ -167,3 +167,6 @@ h1,h2,h3,p { margin-top:0; }h1 { max-width:620px; margin-bottom:18px; color:var(
   .handoff-product b{font-size:17px}
 }
 @media(max-width:760px){.header-webex{display:none}}
+
+/* Breathing room between the call prompt and suggested questions */
+@media(min-width:641px){.questions-section{padding-top:58px}}
