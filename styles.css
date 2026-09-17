@@ -193,3 +193,21 @@ h1,h2,h3,p { margin-top:0; }h1 { max-width:620px; margin-bottom:18px; color:var(
 
 /* Bring the question area back into the visible center */
 @media(min-width:1100px){.questions-section{padding-top:32px}}
+
+/* Discreet AI transparency note */
+.responsible-ai-note{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  margin-top:10px;
+  color:#6a7f8d;
+  font-size:11px;
+  line-height:1.3;
+  text-align:center;
+}
+.responsible-ai-note strong{color:#2156b8;font-weight:800}
+@media(max-width:640px){
+  .responsible-ai-note{flex-wrap:wrap;margin-top:14px;padding:0 8px;font-size:10px}
+  .responsible-ai-note strong{width:100%}
+}
